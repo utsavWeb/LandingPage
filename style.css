@@ -1,0 +1,159 @@
+/*CSS are divided into four parts and footer */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*CSS for part-one */
+.one, footer{
+  background-color: #1F2937;  
+  color: #F9FAF8;
+
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 6px 12px;
+}
+
+
+li a{
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+
+.logo{
+    padding: 6px 12px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+
+.main-image h2{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.main-image-Container{
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background-color: #3882f6;
+    color: white;
+    padding: 2px 12px;
+    border-radius: 12px;
+}
+
+.banana-image{
+    padding: 0 20px;
+}
+/*CSS for part-two */
+ 
+
+.some{
+    text-align: center;
+    padding: 12px;
+    font-size:36px ;
+    font-weight: bolder;
+}
+
+.image-facts{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+.image-Container{
+   padding: 20px;
+
+}
+.two{
+    margin-bottom: 30px;
+}
+
+.two img{
+    border: 2px solid #3882f6;
+    box-shadow: #1F2937;
+}
+/*CSS for part-three */
+
+
+.three{
+
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 30px;
+}
+.three .quoter{
+    font-size: 18px;
+    text-align: right;
+    font-weight: bolder;
+    margin-right: 19%;
+
+}
+
+
+/*CSS for part-three */
+
+.four{
+    background-color:white;
+    color: #e5e7eb;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.four-container{
+    background-color: #3882f6;
+    width: 80%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.four-container .buttons{
+    background-color: #3882f6;
+    color: white;
+}
+.buttons{
+    background-color: #3882f6;
+    border: 2px solid white;
+    padding: 2px 12px;
+    border-radius: 6px;
+}
+
+footer{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
